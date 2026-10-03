@@ -1,0 +1,39 @@
+# Environment Variables & Secret Keys (NEVER PUSH)
+.env
+.env.local
+*.env
+
+# Python Virtual Environments
+venv/
+venv2/
+venv3/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Databases (NEVER PUSH ACTUAL LOCAL DB FILES)
+*.db
+*.sqlite
+*.sqlite3
+phishguard.db
+
+# Uploaded Media / Temporary Files
+app/uploads/
+uploads/
+*.log
+
+# Pytest / Test Caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE Files
+.vscode/
+.idea/
+*.swp

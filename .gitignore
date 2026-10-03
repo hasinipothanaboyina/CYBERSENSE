@@ -1,0 +1,24 @@
+# Root level gitignore
+.env
+*.env
+*.db
+*.sqlite3
+phishguard.db
+
+# Dependencies & Environments
+node_modules/
+venv/
+venv2/
+venv3/
+env/
+
+# Build outputs
+dist/
+build/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
